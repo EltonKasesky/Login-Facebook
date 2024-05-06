@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Inputs */
+    .input-facebook {
+        @apply border-gray-300 border rounded-sm w-full h-14 mb-2.5 pl-5;
+    }
+    /* Botões */
+    .hover-link {
+        @apply hover:opacity-70 transition-all duration-150;
+    }
+}

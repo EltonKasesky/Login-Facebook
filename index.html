@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="src/styles/styleindex.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <div class="w-screen h-screen bg-gray-facebook flex items-center justify-center flex-col md:flex-row">
+        <div class="w-90% pr-0 md:w-580 md:pr-8">
+            <h1 class="text-blue-facebook font-bold text-5xl text-center mb-2 md:text-left"
+                id="title_facebook">
+                facebook
+            </h1>
+            <h2 class="text-3xl text-black text-center md:text-left" 
+                id="subtitle_facebook">
+                O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+            </h2>
+        </div>
+
+        <section class="flex flex-col justify-center items-center">
+            <div class="bg-white p-4 w-90% rounded-md mt-4 md:w-380 shadow-md shadow-gray-300">
+                <div class="flex flex-col justify-center items-center">
+                    <form action="#" method="post">
+                        <input class="input-facebook" 
+                            type="text" 
+                            placeholder="Email ou telefone"
+                        >
+                        <input class="input-facebook" 
+                            type="text" 
+                            placeholder="Senha"
+                        >
+                        <button class="h-12 w-full bg-blue-facebook rounded-md text-white font-bold hover-link"
+                            type="submit"
+                            id="sign_in">
+                            Entrar
+                        </button>
+                    </form>
+                    <a class="text-gray-900 font-semibold cursor-pointer mt-4 hover:text-blue-facebook transition-all duration-75" 
+                        href="#"
+                        id="forgot_password">
+                        Esqueceu a senha?
+                    </a>
+                    <hr class="w-full m-4 border-gray-300 border-1">
+                    <button class="cursor-pointer bg-green-facebook font-bold text-white rounded-md px-4 h-12 hover-link" 
+                        id="create_account">
+                        Criar nova conta
+                    </button>
+                </div>
+            </div>
+            
+            <div class="w-90% md:w-380 mt-5 text-center">
+                <p id="create_business">
+                    <a class="font-bold hover:underline hover:text-blue-facebook"
+                        href="#">
+                        Crie uma página
+                    </a>
+                    para uma celebridade, uma marca ou uma empresa.
+                </p>
+            </div>
+        </section>
+    </div>
+    <script src="src/js/scriptindex.js"></script>
+</body>
+</html>

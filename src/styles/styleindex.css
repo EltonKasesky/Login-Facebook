@@ -1,0 +1,7 @@
+#subtitle_facebook::first-letter,
+#sign_in::first-letter,
+#forgot_password::first-letter,
+#create_account::first-letter,
+#create_business::first-letter {
+    text-transform: capitalize;
+}
